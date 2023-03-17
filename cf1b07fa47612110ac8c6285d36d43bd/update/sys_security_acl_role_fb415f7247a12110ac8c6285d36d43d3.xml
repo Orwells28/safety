@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-17 05:57:20</sys_created_on>
+        <sys_id>fb415f7247a12110ac8c6285d36d43d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_239721_safety_issue.x_239721_safety.user</sys_name>
+        <sys_package display_value="Safety" source="x_239721_safety">cf1b07fa47612110ac8c6285d36d43bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">cf1b07fa47612110ac8c6285d36d43bd</sys_scope>
+        <sys_security_acl display_value="x_239721_safety_issue">b7415f7247a12110ac8c6285d36d43d0</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_fb415f7247a12110ac8c6285d36d43d3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-17 05:57:20</sys_updated_on>
+        <sys_user_role display_value="x_239721_safety.user" name="x_239721_safety.user">b76bc73e47612110ac8c6285d36d436e</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

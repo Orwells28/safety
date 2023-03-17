@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="5b411f7247a12110ac8c6285d36d43ab" label="Issue" max_length="40" name="x_239721_safety_issue" type="collection">
+        <element attributes="encode_utf8=false" label="Assigned to" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Due date" max_length="40" name="due_date" type="glide_date"/>
+        <element attributes="encode_utf8=false" label="inspector" mandatory="true" max_length="32" name="inspector" reference="sys_user" type="reference"/>
+        <element attributes="encode_utf8=false" label="Location" max_length="32" name="location" reference="cmn_location" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="encode_utf8=false" label="Opened by" mandatory="true" max_length="32" name="opened_by" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="low" label="Priority" max_length="40" name="priority" type="choice">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="Big" sequence="0" value="big"/>
+                <element inactive_on_update="false" label="Low" sequence="0" value="low"/>
+                <element inactive_on_update="false" label="Moderate" sequence="1" value="moderate"/>
+                <element inactive="true" inactive_on_update="true" label="Small" sequence="1" value="small"/>
+                <element inactive_on_update="false" label="Critical" sequence="2" value="critical"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Short description" max_length="85" name="short_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="new" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Approval" value="approval"/>
+                <element inactive_on_update="false" label="Complete" value="complete"/>
+                <element inactive_on_update="false" label="New" value="new"/>
+                <element inactive_on_update="false" label="Work in progress" value="work_in_progress"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="assigned_to"/>
+        </index>
+        <index name="index2">
+            <element name="inspector"/>
+        </index>
+        <index name="index3">
+            <element name="location"/>
+        </index>
+        <index name="index4">
+            <element name="opened_by"/>
+        </index>
+    </element>
+</database>

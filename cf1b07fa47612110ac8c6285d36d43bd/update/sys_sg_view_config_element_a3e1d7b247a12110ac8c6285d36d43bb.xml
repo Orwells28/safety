@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config_element">
+    <sys_sg_view_config_element action="INSERT_OR_UPDATE">
+        <name>due_date-FieldValue</name>
+        <sys_class_name>sys_sg_view_config_element</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-17 06:00:03</sys_created_on>
+        <sys_id>a3e1d7b247a12110ac8c6285d36d43bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>due_date-FieldValue</sys_name>
+        <sys_package display_value="Safety" source="x_239721_safety">cf1b07fa47612110ac8c6285d36d43bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">cf1b07fa47612110ac8c6285d36d43bd</sys_scope>
+        <sys_update_name>sys_sg_view_config_element_a3e1d7b247a12110ac8c6285d36d43bb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-17 06:00:03</sys_updated_on>
+        <view_config display_value="Issue Detail Screen View Config">6be1d7b247a12110ac8c6285d36d43aa</view_config>
+        <view_template_slot display_value="text_02">6c738dbc41e35010f877183fc9b8be9a</view_template_slot>
+    </sys_sg_view_config_element>
+</record_update>
